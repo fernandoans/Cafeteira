@@ -1,15 +1,16 @@
 # Cafeteira
-O Cafeteira é um pequeno RAD (Rapid Aplication Developer), totalmente feito em Java, que permite a geração de Janelas (padrão Swing) para suas aplicações com as mesmas facilidades do Delphi©, sendo extremamente leve e pequeno o suficiente para caber em um simples disquete. Esta é a relação de objetos que podem ser inseridos em uma JFrame ou JDialog:
+O Cafeteira é um pequeno RAD (Rapid Aplication Developer), totalmente feito em Java, que permite a geração de Janelas (padrão Swing) para suas aplicações com as mesmas facilidades do Delphi©, sendo extremamente leve e pequeno o suficiente para caber em um simples disquete.
 
-JLabel 	
-JTextField 	
-JPasswordField 	
-JButton
-JList 	
-JTextArea 	
-JRadioButton 	
-JCheckBox 	
-JComboBox
+## Manual de Uso
+
+Para sua execução é necessário ter o Java instalado (versão JRE). 
+
+Execução:
+```
+java -jar cafeteira.jar
+```
+
+![Inicial](telaIncial.png) 
 
 Assim que for iniciado, será mostrado uma janela com minha pequena xícara de café, aguarde e esta será fechada mostrando uma janela vazia. Esta nova janela agora em branco é como ficará a sua janela final, clique com o botão direito do mouse e você terá acesso as opções:
 
@@ -21,3 +22,35 @@ Assim que for iniciado, será mostrado uma janela com minha pequena xícara de c
 * Abrir: Permite abrir um projeto salvo no formato do cafeteira (formato .CAF)
 * Salvar: Permite salvar um projeto do cafeteira (formato .CAF)
 * Limpar: Elimina todos os objetos da janela (sempre faça isso antes de abrir um projeto)
+
+Este é um software extremamente simples, temos uma simples janela que pode ser inseridos uma relação dos seguintes objetos:
+
+![Objetos](objetos.png) 
+
+JLabel 	
+JTextField 	
+JPasswordField 	
+JButton
+JList 	
+JTextArea 	
+JRadioButton 	
+JCheckBox 	
+JComboBox
+
+Clicar com o botão direito do mouse em cima do objeto e temos o menu deste com as opções:
+* Propriedades: que permite definir algumas propriedades dos objetos e eventos para estes. Na janela de propriedades existe uma combobox que permite a seleção de qualquer outro objeto.
+* Excluir: eliminar o objeto.
+ 
+Uma vez pronta sua janela vem a parte difícil, gerar (recomendo que antes de realizar este processo salve a janela). A tela de geração está dividida em 2 partes: Classe e Objetos. Abra seu editor favorito e cole a classe após isso é só localizar a indicação aonde os blocos de 1 a 3 devem ser colocados. E está pronto!
+
+## Software em Sustentação:
+
+**Versão 2.0:**
+
+* Implementação de muitas funcionalidades que desejava inserir.
+* Melhoria total da última versão disponível do Cafeteira a 12 anos atrás. 
+
+**Versões Anteriores:**
+
+* Estão descritas no "Diário do Cafeteira" que pode ser acessado na pasta DOCs.
+* Versão 1.02 em Delphi ainda existe e está disponível na pasta Doc.
